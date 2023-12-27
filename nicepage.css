@@ -2334,6 +2334,9 @@ a {
   .u-form-vertical .u-form-group {
     width: 100%;
   }
+  body {
+    overflow-x: clip;
+  }
 }
 @media (max-width: 575px) {
   .u-form-vertical .u-form-group.u-label-left {
@@ -3152,9 +3155,6 @@ a {
   }
   .u-progress-text-hidden-xs .u-form-progress-text {
     display: none !important;
-  }
-  body {
-    overflow-x: clip;
   }
 }
 *,
