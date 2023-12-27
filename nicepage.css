@@ -3153,6 +3153,9 @@ a {
   .u-progress-text-hidden-xs .u-form-progress-text {
     display: none !important;
   }
+  body {
+    overflow-x: clip;
+  }
 }
 *,
 *:before,
@@ -18151,9 +18154,6 @@ p {
 @media (max-width: 575px) {
   .u-align-left-xs {
     text-align: left;
-  }
-  body {
-    overflow-x: clip;
   }
 }
 .u-align-center {
@@ -43128,11 +43128,11 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-weight: 700;
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
+  font-weight: normal;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
@@ -43152,6 +43152,10 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-top: -36px;
     margin-bottom: 60px;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
   }
 }
 @media (max-width: 991px) {
@@ -43203,9 +43207,14 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-menu-1 {
-    margin-top: -357px;
+    margin-top: -356px;
     margin-right: auto;
     margin-left: 0;
+  }
+
+  .u-header .u-nav-2 {
+    font-size: 1.875rem;
+    font-weight: 700;
   }
 }
  .u-footer {
